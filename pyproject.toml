@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "skypro-coursework-postgresshh"
+version = "0.1.0"
+description = ""
+authors = ["Sumerian <shemerov.s@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "skypro_coursework_postgresshh"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+pytest = "^8.1.1"
+pytest-cov = "^5.0.0"
+psycopg2-binary = "^2.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
